@@ -1,0 +1,120 @@
+.main{
+    background-color: rgb(97, 97, 158);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0;
+    width: auto;
+    height: 100px;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    
+    
+    
+    
+
+    
+ }
+ 
+
+ .sub {
+    background-color: rgba(0, 0, 0, 0.508);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+ .sub button {
+  background-color: transparent;
+  border: 2px solid aliceblue;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.sub button:hover {
+    background-color: aliceblue;
+    color: black;
+  }
+
+
+
+     .container {
+        display: flex;
+        align-items: center;         
+        justify-content: center;     
+        gap: 40px;                   
+        width: 900%;                 
+        max-width: 1000px;           
+        margin: 0 auto;              
+        padding: 20px 10px;          
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      .side-image {
+        width: 200px;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+      
+      .text-container {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;     
+        width: 1000px;
+      }
+
+
+      .footer{
+
+    background-color: rgba(0, 0, 0, 0.508);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 20px ;
+    
+    position: fixed;        
+  bottom: 0;             
+  left: 0;
+  width: 100%; 
+    
+    
+
+
+
+      }
+
+      .footer button {
+        background-color: transparent;
+        border: 1px solid aliceblue;
+        color: aliceblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 4px 8px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      
+      
+      .footer button:hover {
+          background-color: aliceblue;
+          color: black;
+        }
+  
+  
+ 
